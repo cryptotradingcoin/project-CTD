@@ -1,0 +1,11 @@
+[Protocol]
+exec=ctdcoin-qt '%u'
+protocol=ctdcoin
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

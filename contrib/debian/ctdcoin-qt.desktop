@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=CTD
+Comment=CTD P2P Cryptocurrency
+Comment[fr]=CTD, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=CTD, eşten eşe kriptografik sanal para birimi
+Exec=ctdcoin-qt %u
+Terminal=false
+Type=Application
+Icon=ctdcoin128
+MimeType=x-scheme-handler/ctdcoin;
+Categories=Office;Finance;

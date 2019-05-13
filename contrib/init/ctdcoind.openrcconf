@@ -1,0 +1,26 @@
+# /etc/conf.d/ctdcoind: config file for /etc/init.d/ctdcoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/ctdcoin/ctdcoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/ctdcoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/ctdcoind.pid"
+
+# Where to write ctdcoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/ctdcoind"
+
+# User and group to own ctdcoind process
+#BITCOIND_USER="ctdcoin"
+#BITCOIND_GROUP="ctdcoin"
+
+# Path to ctdcoind executable
+#BITCOIND_BIN="/usr/bin/ctdcoind"
+
+# Nice value to run ctdcoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
